@@ -99,7 +99,7 @@ public class VarastoTest {
     }
     
     @Test public void otetaanLiikaa() {
-        varasto.lisaaVarastoon(3);
+        varasto.lisaaVarastoon(4);
 
         double saatuMaara = varasto.otaVarastosta(5);
 
